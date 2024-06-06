@@ -97,6 +97,28 @@ Rating field added
 https://localhost:7033/Movies
 It is successful!
 
+0215
+Part 9 - Validation 
+Started to validate the release date, rating, price
+It is successful!
+
+0225
+Part 10 - Examine
+In this part examined each and every code in all the files.
+It is clear.
+
+2024-06-06
+0211
+Created Github account using my college id 
+Created successfully!
+Then opened MVCMovie file in visual studio and clicked Git option to clone repository 
+Selected my created file and pushed my file into GitHub account.
+Changed my Github Account to Public
+
+0230
+Deleted my old movie history.
+Then modified 5 new movies in seeddata file and ran 
+5 New movies displayed successfully!
 
 
 
@@ -106,14 +128,9 @@ It is successful!
 
 
 
-part7
 
 
-https://localhost:7033/Movies/index/ghost
 
-https://localhost:7033/Movies?SearchString=ghost
-
-https://localhost:7033/Movies?MovieGenre=Comedy&SearchString=ghost
 
 
 

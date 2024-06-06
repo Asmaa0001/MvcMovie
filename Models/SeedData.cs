@@ -22,9 +22,9 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
-                    Genre = "Romantic Comedy",
+                    Title = "The cabin in the woods",
+                    ReleaseDate = DateTime.Parse("2022-2-12"),
+                    Genre = "Mystery",
                     Price = 7.99M,
                     Rating = "R"
 
@@ -32,28 +32,36 @@ public static class SeedData
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
-                    Genre = "Comedy",
+                    Title = "Alice in wonderland",
+                    ReleaseDate = DateTime.Parse("2021-3-13"),
+                    Genre = "Fantasy",
                     Price = 8.99M,
                     Rating = "R"
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
-                    Genre = "Comedy",
+                    Title = "Inception",
+                    ReleaseDate = DateTime.Parse("2023-2-23"),
+                    Genre = "Action",
                     Price = 9.99M,
                     Rating = "R"
                 },
                 new Movie
                 {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
+                    Title = "Shutter island",
+                    ReleaseDate = DateTime.Parse("2020-4-15"),
+                    Genre = "Thriller",
                     Price = 3.99M,
                     Rating = "R"
-                }
+                },
+                new Movie
+                 {
+                     Title = "Batman begins",
+                     ReleaseDate = DateTime.Parse("2019-4-15"),
+                     Genre = "Crime",
+                     Price = 8.99M,
+                     Rating = "R"
+                 }
             );
             context.SaveChanges();
         }
